@@ -2,19 +2,19 @@
     {
       "id": 1,
       "title": "Libertés",
-      "content": "Pour la liberté de pensée, de conscience, d'expression, d'association, de réunion, de circulation, de propriété, de travail, de création, de consommation, de production, de commerce, de concurrence, de choix, de vote, de justice, de sécurité, de santé, de protection, de défense, de solidarité, de paix, de bonheur",
+      "content": "Pour la liberté de pensée, de conscience, d'expression, d'association, de réunion, de circulation, de propriété, de travail, de création, de consommation, de production, de commerce, de concurrence, de choix, de vote, de justice, de sécurité, de santé, de protection, de défense, de solidarité, de paix, de bonheur, de religion, de croyance, de presse, d'information, artistique, académique, de recherche, d'innovation, d'entreprendre, de manifestation, de contestation, d'orientation sexuelle, culturelle, de déplacement, d'asile, de participation politique, d'opinion, de réunion pacifique.",
       "color": "red"
     },
     {
       "id": 2,
       "title": "Egalités",
-      "content": "Pour l'égalité des droits et des chances, pour la lutte contre les discriminations",
+      "content": "Pour l'égalité des droits, des chances, de traitement, devant la loi, entre les sexes, entre les générations, entre les cultures, entre les religions, d'accès à l'éducation, à la santé, au logement, à l'emploi, de rémunération, politique, économique, sociale, numérique, linguistique, de participation, des opportunités, environnementale, de justice, de traitement juridique, de respect, de dignité.",
       "color": "blue"
     },
     {
       "id": 3,
       "title": "Fraternités",
-      "content": "Pour la Fraternites des citoyens, des peuples et des nations",
+      "content": "Pour la fraternité entre les peuples, les nations, les cultures, les religions, les communautés, pour la solidarité, l'entraide, la coopération, le respect mutuel, la compréhension, la tolérance, l'amour du prochain, le partage, l'humanisme, la compassion, le soutien, la bienveillance, la paix, l'unité, l'amitié, la cohésion sociale, la justice sociale, la responsabilité partagée, le développement durable, la réconciliation, la diversité, le dialogue, l'intégration, l'inclusion, l'égalité, l'harmonie.",
       "color": "darkblue"
     }
   ]
