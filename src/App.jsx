@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Header from './components/Header';
 import Boards from './components/Boards';
 import headerMenu from './data/header-menu';
+import Button from './components/ui/Button';
 import './App.css';
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
         headerMenu={headerMenu}
         onMenuClick={(content, alignment) => handleMenuClick(content, alignment)}
       />
+      <div className="button">
+          <Button text="Soutenez Nous" onClick={() => setBoardContent('')} />
+      </div>
       <div className="coming-soon">
         <h1>À Venir</h1>
         <h1>Coming Soon</h1>

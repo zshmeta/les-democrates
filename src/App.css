@@ -17,15 +17,26 @@
   color: #000;
 }
 
+.button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 19px 0px 0px 0px;
+  cursor: pointer;
+}
+
 /* Example style for your h1 element */
 h1 {
   font-family: 'Romanesco', sans-serif;
   text-align: center;
-  background: linear-gradient(90deg, blue, red); /* Gradient colors: blue, white, and red */
+  background: linear-gradient(to right, blue, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  color: transparent;
+  text-fill-color: transparent;
 
 }
 

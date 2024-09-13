@@ -16,17 +16,17 @@ const HeaderWrapper = styled.header`
 `;
 
 const Title = styled.h1`
-  margin: 0;
-  font-size: 2rem;
+  
+  font-size: 3rem;
   font-weight: bold;
-  background: linear-gradient(to right, darkBlue, blue, red);
+  background: linear-gradient(to right, darkBlue, #b0b0f8, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
   display: inline;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Romanesco', Times, serif;
 `;
 
 const Menu = styled.nav`

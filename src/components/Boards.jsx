@@ -31,8 +31,9 @@ const getStyles = (alignment) => {
   padding: 15px 30px;
   background: ${(props) => getStyles(props.alignment).background}; /* Dynamic background gradient */
   color: ${(props) => getStyles(props.alignment).color}; /* Dynamic text color */
-  font-size: 2rem;  /* Larger font */
-  font-family: 'Times New Roman', Courier, monospace;  /* Fancy font */
+  font-size: 2.5rem;  /* Larger font */
+  font-weight: bold;
+  font-family: 'Romanesco', Courier, monospace;  /* Fancy font */
   text-align: center;  /* Centered text */
   display: flex;
   justify-content: center;

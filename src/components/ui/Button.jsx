@@ -15,6 +15,11 @@ const StyledButton = styled.button`
   color: darkblue;
   cursor: pointer;
   transition: box-shadow 0.7s ease-in-out, color 0.7s ease-in-out;
+    background: linear-gradient(to right, darkBlue, #b0b0f8, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 
   /* Default box shadow with no offset */
   box-shadow: 0 0 0px rgba(0, 0, 0, 0);
@@ -25,8 +30,12 @@ const StyledButton = styled.button`
   }
 
   &:active {
-    background-color: darkblue;
     color: darkblue;
+      background: linear-gradient(to right, darkBlue, blue, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
   }
 
   &:focus {
