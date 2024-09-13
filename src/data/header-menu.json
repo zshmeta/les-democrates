@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "title": "Libertés",
+      "content": "Pour la liberté de pensée, de conscience, d'expression, d'association, de réunion, de circulation, de propriété, de travail, de création, de consommation, de production, de commerce, de concurrence, de choix, de vote, de justice, de sécurité, de santé, de protection, de défense, de solidarité, de paix, de bonheur",
+      "color": "red"
+    },
+    {
+      "id": 2,
+      "title": "Egalités",
+      "content": "Pour l'égalité des droits et des chances, pour la lutte contre les discriminations",
+      "color": "blue"
+    },
+    {
+      "id": 3,
+      "title": "Fraternités",
+      "content": "Pour la Fraternites des citoyens, des peuples et des nations",
+      "color": "darkblue"
+    }
+  ]
+  
