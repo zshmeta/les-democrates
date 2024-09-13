@@ -19,7 +19,13 @@ function App() {
         headerMenu={headerMenu}
         onMenuClick={(content, alignment) => handleMenuClick(content, alignment)}
       />
-      <h1>A Venir</h1>
+      <div className="coming-soon">
+        <h1>À Venir</h1>
+        <h1>Coming Soon</h1>
+        <h1>قريباً</h1>
+        <h1>Скоро</h1>
+        <h1>即将到来</h1>
+      </div>
       <Boards content={boardContent} alignment={alignment} />
     </div>
   );

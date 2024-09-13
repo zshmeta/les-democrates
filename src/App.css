@@ -3,14 +3,34 @@
   text-align: center;
 }
 
-h1 {
-  font-family: "Times New Roman", serif; 
-  font-size: 5rem; /* Huge font size */
-  color: #333; /* Dark color for elegance */
-  margin: 0; /* Remove default margin */
-  margin-top: 9rem;
-  padding: 0;
+@font-face {
+  font-family: 'Romanesco';
+  src: url('./assets/fonts/Romanesco-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+
+.coming-soon {
+  padding-top: 50px;
+  font-family: 'Romanesco', sans-serif;
+  font-size: 2rem;
+  color: #000;
+}
+
+/* Example style for your h1 element */
+h1 {
+  font-family: 'Romanesco', sans-serif;
+  text-align: center;
+  background: linear-gradient(90deg, blue, red); /* Gradient colors: blue, white, and red */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+
+}
+
+
+
 
 body {
   margin: 0;
