@@ -21,7 +21,7 @@ function App() {
         onMenuClick={(content, alignment) => handleMenuClick(content, alignment)}
       />
       <div className="button">
-          <Button text="Soutenez Nous" onClick={() => setBoardContent('')} />
+          <Button text="Soutenez Nous" />
       </div>
       <div className="coming-soon">
         <h1>À Venir</h1>
@@ -30,7 +30,7 @@ function App() {
         <h1>Скоро</h1>
         <h1>即将到来</h1>
       </div>
-      <Boards content={boardContent} alignment={alignment} />
+      <Boards content={boardContent} alignment={alignment} onClick={() => setBoardContent('')} />
     </div>
   );
 }

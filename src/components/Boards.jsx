@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import styled from 'styled-components';
 
 
@@ -44,9 +45,9 @@ const getStyles = (alignment) => {
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 `;
 
-const Boards = ({ content, alignment }) => {
+const Boards = ({ content, alignment, onClick }) => {
   return (
-    <BoardsWrapper isVisible={!!content} alignment={alignment}>
+    <BoardsWrapper isVisible={!!content} alignment={alignment} onClick={onClick}>
       <div>
         {content}
       </div>
