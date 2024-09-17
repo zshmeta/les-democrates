@@ -33,3 +33,31 @@
     background-color: #f9f9f9;
   }
 }
+
+@media (max-width: 768px) {
+  .coming-soon {
+    font-size: 5vw; /* Increase font size for smaller screens */
+  }
+
+  h1 {
+    font-size: 8vw; /* Adjust title size */
+  }
+
+  .button {
+    font-size: 4vw; /* Adjust button size */
+  }
+}
+
+@media (max-width: 480px) {
+  .coming-soon {
+    font-size: 6vw; /* Further adjustments for mobile */
+  }
+
+  h1 {
+    font-size: 10vw; /* Increase size for mobile */
+  }
+
+  .button {
+    font-size: 5vw; /* Adjust button size */
+  }
+}

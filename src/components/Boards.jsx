@@ -21,21 +21,20 @@ const getStyles = (alignment) => {
     }
     return { background: 'none', color: 'white' }; // Default styles
   };
-  
   const BoardsWrapper = styled.div`
   position: fixed;
   ${(props) =>
     props.alignment === 'left' ? 'left: 0;' : props.alignment === 'center' ? 'left: 33.33%;' : 'right: 0;'}
-  width: 33.33%; /* Each board takes up 33.33% of the width */
-  top: 0;
-  height: 100vh; /* Full height */
-  padding: 15px 30px;
-  background: ${(props) => getStyles(props.alignment).background}; /* Dynamic background gradient */
-  color: ${(props) => getStyles(props.alignment).color}; /* Dynamic text color */
-  font-size: 2.5rem;  /* Larger font */
+  width: 33.33%;
+  top: 60px;
+  height: 100vh;
+  padding: 2vh 4vw; /* Make padding responsive */
+  background: ${(props) => getStyles(props.alignment).background};
+  color: ${(props) => getStyles(props.alignment).color};
+  font-size: 2.3vw;  /* Responsive font */
   font-weight: bold;
-  font-family: 'Romanesco', Courier, monospace;  /* Fancy font */
-  text-align: center;  /* Centered text */
+  font-family: 'Romanesco', Courier, monospace;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
