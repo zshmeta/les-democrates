@@ -23,6 +23,12 @@ function App() {
       <div className="button">
           <Button text="Soutenez Nous" />
       </div>
+      <div className="button">
+          <Button text="Recevez notre Newsletter" />
+      </div>
+      <div className="button">
+          <Button text="Contactez Nous" />
+      </div>
       <div className="coming-soon">
         <h1>À Venir</h1>
         <h1>Coming Soon</h1>

@@ -20,6 +20,7 @@ const StyledButton = styled.button`
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+  z-index: 100;
 
   /* Default box shadow with no offset */
   box-shadow: 0 0 0px rgba(0, 0, 0, 0);
