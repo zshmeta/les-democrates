@@ -16,7 +16,6 @@ const HeaderWrapper = styled.header`
 `;
 
 const Title = styled.h1`
-  
   font-size: 3rem;
   font-weight: bold;
   background: linear-gradient(to right, darkBlue, #b0b0f8, red);
