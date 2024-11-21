@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+        "title": "Mentions légales",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc",
+        "color": "red"
+    },
+    {
+      "id": 2,
+        "title": "Politique de confidentialité",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc",
+        "color": "blue"
+    },
+    {
+      "id": 3,
+        "title": "Cookies",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc",
+        "color": "darkblue"
+    }
+]
+  

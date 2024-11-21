@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import Header from './components/Header';
 import Boards from './components/Boards';
+import Footer from './components/Footer';
+import footerMenu from './data/footer-menu';
 import headerMenu from './data/header-menu';
 import Button from './components/ui/Button';
 import './App.css';
@@ -37,7 +39,12 @@ function App() {
         <h1>即将到来</h1>
       </div>
       <Boards content={boardContent} alignment={alignment} onClick={() => setBoardContent('')} />
+      <Footer
+        footerMenu={footerMenu}
+        onMenuClick={(content, alignment) => handleMenuClick(content, alignment)}
+      />
     </div>
+
   );
 }
 
